@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "frontend:install": "ls && cd frontend && npm run && npm install",
+        "frontend:install": "ls && cd frontend && pwd && npm run && npm install",
         "frontend:start": "cd frontend && npm run start",
         "frontend:build": "cd frontend && npm run && npm run build",
         "frontend:test": "cd frontend && npm run test",
