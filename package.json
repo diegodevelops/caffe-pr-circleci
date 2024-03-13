@@ -1,11 +1,11 @@
 {
     "scripts": {
-        "frontend:install": "ls && npm install --prefix frontend",
+        "frontend:install": "cd frontend && npm install",
         "frontend:start": "npm run --prefix frontend start",
         "frontend:build": "npm run --prefix frontend build",
         "frontend:test": "npm run --prefix frontend test",
         "frontend:deploy": "npm run --prefix frontend deploy",
-        "backend:install": "npm install --prefix backend",
+        "backend:install": "cd backend && npm install",
         "backend:build": "npm run --prefix backend build",
         "backend:start": "npm run --prefix backend start",
         "backend:deploy": "npm run --prefix backend deploy",
