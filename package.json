@@ -1,14 +1,14 @@
 {
     "scripts": {
-        "frontend:install": "ls && cd frontend && pwd && npm run && npm install",
-        "frontend:start": "cd frontend && npm run start",
-        "frontend:build": "cd frontend && npm run && npm run build",
-        "frontend:test": "cd frontend && npm run test",
-        "frontend:deploy": "cd frontend && npm run deploy",
-        "backend:install": "ls && cd backend && npm run && npm install",
-        "backend:build": "cd backend && npm run && npm run build",
-        "backend:start": "cd backend && npm run dev",
-        "backend:deploy": "cd backend && npm run deploy",
-        "deploy": "npm run backend:deploy && npm run frontend:deploy"
+        "frontend:install": "ls ; cd frontend ; pwd ; npm run ; npm install",
+        "frontend:start": "cd frontend ; npm run start",
+        "frontend:build": "cd frontend ; npm run ; npm run build",
+        "frontend:test": "cd frontend ; npm run test",
+        "frontend:deploy": "cd frontend ; npm run deploy",
+        "backend:install": "ls ; cd backend ; npm run ; npm install",
+        "backend:build": "cd backend ; npm run ; npm run build",
+        "backend:start": "cd backend ; npm run dev",
+        "backend:deploy": "cd backend ; npm run deploy",
+        "deploy": "npm run backend:deploy ; npm run frontend:deploy"
     }
 }
