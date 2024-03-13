@@ -1,14 +1,14 @@
 {
     "scripts": {
-        "frontend:install": "cd frontend && npm install",
-        "frontend:start": "cd frontend && npm run start",
-        "frontend:build": "cd frontend && npm run build",
-        "frontend:test": "cd frontend && npm run test",
-        "frontend:deploy": "cd frontend && npm run deploy",
-        "backend:install": "cd backend && npm install",
-        "backend:build": "cd backend && npm run build",
-        "backend:start": "cd backend && npm run start",
-        "backend:deploy": "cd backend && npm run deploy",
+        "frontend:install": "cd caffe-pr/frontend && npm install",
+        "frontend:start": "cd caffe-pr/frontend && npm run start",
+        "frontend:build": "cd caffe-pr/frontend && npm run build",
+        "frontend:test": "cd caffe-pr/frontend && npm run test",
+        "frontend:deploy": "cd caffe-pr/frontend && npm run deploy",
+        "backend:install": "cd caffe-pr/backend && npm install",
+        "backend:build": "cd caffe-pr/backend && npm run build",
+        "backend:start": "cd caffe-pr/backend && npm run start",
+        "backend:deploy": "cd caffe-pr/backend && npm run deploy",
         "deploy": "npm run backend:deploy && npm run frontend:deploy"
     }
 }
