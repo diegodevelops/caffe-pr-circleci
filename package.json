@@ -1,13 +1,14 @@
 {
     "scripts": {
-        "frontend:install": "npm install",
-        "frontend:start": "npm run start",
-        "frontend:build": "npm run build",
-        "frontend:test": "npm run test",
-        "frontend:deploy": "npm run deploy",
-        "backend:install": "npm install",
-        "backend:build": "npm run build",
-        "backend:start": "npm run dev",
-        "backend:deploy": "npm run deploy"
+        "frontend:install": "npm install --prefix frontend",
+        "frontend:start": "npm run --prefix frontend start",
+        "frontend:build": "npm run --prefix frontend build",
+        "frontend:test": "npm run --prefix frontend test",
+        "frontend:deploy": "npm run --prefix frontend deploy",
+        "backend:install": "npm install --prefix backend",
+        "backend:build": "npm run --prefix backend build",
+        "backend:start": "npm run --prefix backend start",
+        "backend:deploy": "npm run --prefix backend deploy",
+        "deploy": "npm run backend:deploy && npm run frontend:deploy"
     }
 }
