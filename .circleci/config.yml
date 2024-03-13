@@ -19,8 +19,8 @@ jobs:
       - run:
           name: Install Front-End Dependencies
           command: |
-            npm run frontend:install
-          working_directory: /frontend
+            cd frontend
+            npm install
       # Install dependencies in the the backend API
       - run:
           name: Install Backend API Dependencies
