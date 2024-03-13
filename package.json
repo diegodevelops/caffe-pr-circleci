@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "frontend:install": "ls && npm install --prefix frontend",
+        "frontend:install": "ls && npm install",
         "frontend:start": "npm run --prefix frontend start",
         "frontend:build": "npm run --prefix frontend build",
         "frontend:test": "npm run --prefix frontend test",
