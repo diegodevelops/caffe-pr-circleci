@@ -56,9 +56,6 @@ workflows:
   caffe-pr:
     jobs:
       - build
-      - hold:
-          requires:
-            - build
       - deploy:
           requires:
-            - hold
+            - build
