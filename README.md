@@ -20,7 +20,7 @@ Screenshot of the backend:
 
 ![Frontend](./screenshots/elastic-beanstalk.png)
 
-Screenshot of the frontend:
+Screenshot of the database:
 
 ![Database](./screenshots/rds.png)
 
