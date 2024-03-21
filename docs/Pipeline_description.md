@@ -24,6 +24,8 @@ As you can see in the screenshot below, the **build** job involves eight (8) ste
 
 ![CircleCI Build](../screenshots/circleci-build.png)
 
+## Deploy
+
 As you can see in the screenshot below, the **deploy** job involves eight (8) steps:
 
 1. Spin up environment
