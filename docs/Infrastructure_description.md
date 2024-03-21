@@ -8,7 +8,7 @@ The entire applicaition is being hosted by AWS services:
 
 The following architecture diagram displays how these services interact:
 
-![Architecture Diagram](/architecture-diagram.png)
+![Architecture Diagram](./architecture-diagram.png)
 
 To see proper setup of the backend/API or the database on your local environment, navigate to the '/caffe-pr/backend' folder and see the README file.
 
