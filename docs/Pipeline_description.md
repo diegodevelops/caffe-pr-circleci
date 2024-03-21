@@ -7,7 +7,7 @@ The workflow is divided into two 'jobs':
 1. **build**
 2. **deploy** 
 
-*Since the app is still in development, we are ommiting a 'hold' filter, and so deployment is being done automatically right after the **build** job.
+*Since the app is still in development, we are omiting a 'hold' filter, and so deployment is being done automatically right after the **build** job.
 
 ## Build 
 
